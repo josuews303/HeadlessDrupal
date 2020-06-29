@@ -41,9 +41,9 @@ npm start
 
 _Si el proceso se ha realizado correctamente, la página debería estar funcionando, caso contrario revisar los posibles errores de comunicación mediante la consola en el inspector del navegador._
 
-## Ejecutando las pruebas ⚙️
+## Configuraciones adicionales ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Trusted Host está activado como ejemplo de seguridad, actualmente se tiene las configuraciones óptimas para XAMPP establecidas, leer la [documentación](https://www.drupal.org/docs/installing-drupal/trusted-host-settings) en caso de requerir cambios._
 
 
 ## Despliegue 📦
