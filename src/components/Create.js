@@ -29,7 +29,7 @@ function Create({ match }) {
 
         console.log('cats', cats);
 
-
+        setValue(cats.data[0].id);
         setCats(cats.data);
     }
 
