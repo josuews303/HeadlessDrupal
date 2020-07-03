@@ -45,10 +45,23 @@ _Si el proceso se ha realizado correctamente, la página debería estar funciona
 
 _Trusted Host está activado como ejemplo de seguridad, actualmente se tiene las configuraciones óptimas para XAMPP establecidas, leer la [documentación](https://www.drupal.org/docs/installing-drupal/trusted-host-settings) en caso de requerir cambios._
 
+_La base de datos está con la configuración por defecto de XAMPP, en caso de necesitar otro usuario, contraseña, o importar la base con otro nombre, estos cambios se deben realizar en el siguiente archivo:_
 
-## Despliegue 📦
+```
+C:\xampp\htdocs\drupal\sites\default\settings.php
+```
 
-_Agrega notas adicionales sobre como hacer deploy_
+_De igual manera, los permisos otorgados son los usados en el ejemplo, cualquier caso de problemas relacionados con CORS se puede resolver especificando los permisos necesarios en el siguiente archivo:_
+
+```
+C:\xampp\htdocs\drupal\core\core.services.yml
+```
+
+_Finalmente, cuando se realizan ciertos cambios, Drupal suele necesitar que se limpie la caché, lo cual se puede realizar facilmente con el botón Clear all caches. Lo podemos encontrar en nuestro proyecto en la url:_
+
+```
+http://localhost/drupal/admin/config/development/performance
+```
 
 ## Construido con 🛠️
 
